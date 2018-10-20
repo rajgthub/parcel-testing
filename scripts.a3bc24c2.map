@@ -1,1 +1,0 @@
-{"version":3,"sources":["scripts/index.js"],"names":["console","log"],"mappings":";AAAAA,QAAQC,IAAI","file":"scripts.a3bc24c2.map","sourceRoot":"../src","sourcesContent":["console.log('hello from script!');\n"]}
