@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html --out-dir build",
-    "deploy": "npm build && gh-pages -d build"
+    "predeploy": "rm -rf dist && parcel build src/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
